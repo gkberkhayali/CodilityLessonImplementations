@@ -1,9 +1,4 @@
 C:\Github\CodilityLessonImplementations\LessonTester\bin\Debug\net6.0\CoverletSourceRootsMapping
-C:\Github\CodilityLessonImplementations\LessonTester\obj\Debug\net6.0\LessonTester.csproj.AssemblyReference.cache
-C:\Github\CodilityLessonImplementations\LessonTester\obj\Debug\net6.0\LessonTester.GeneratedMSBuildEditorConfig.editorconfig
-C:\Github\CodilityLessonImplementations\LessonTester\obj\Debug\net6.0\LessonTester.AssemblyInfoInputs.cache
-C:\Github\CodilityLessonImplementations\LessonTester\obj\Debug\net6.0\LessonTester.AssemblyInfo.cs
-C:\Github\CodilityLessonImplementations\LessonTester\obj\Debug\net6.0\LessonTester.csproj.CoreCompileInputs.cache
 C:\Github\CodilityLessonImplementations\LessonTester\bin\Debug\net6.0\testhost.dll
 C:\Github\CodilityLessonImplementations\LessonTester\bin\Debug\net6.0\testhost.exe
 C:\Github\CodilityLessonImplementations\LessonTester\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
@@ -95,6 +90,11 @@ C:\Github\CodilityLessonImplementations\LessonTester\bin\Debug\net6.0\zh-Hant\Mi
 C:\Github\CodilityLessonImplementations\LessonTester\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 C:\Github\CodilityLessonImplementations\LessonTester\bin\Debug\net6.0\LessonChallengeSolutions.dll
 C:\Github\CodilityLessonImplementations\LessonTester\bin\Debug\net6.0\LessonChallengeSolutions.pdb
+C:\Github\CodilityLessonImplementations\LessonTester\obj\Debug\net6.0\LessonTester.csproj.AssemblyReference.cache
+C:\Github\CodilityLessonImplementations\LessonTester\obj\Debug\net6.0\LessonTester.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\CodilityLessonImplementations\LessonTester\obj\Debug\net6.0\LessonTester.AssemblyInfoInputs.cache
+C:\Github\CodilityLessonImplementations\LessonTester\obj\Debug\net6.0\LessonTester.AssemblyInfo.cs
+C:\Github\CodilityLessonImplementations\LessonTester\obj\Debug\net6.0\LessonTester.csproj.CoreCompileInputs.cache
 C:\Github\CodilityLessonImplementations\LessonTester\obj\Debug\net6.0\LessonTester.csproj.CopyComplete
 C:\Github\CodilityLessonImplementations\LessonTester\obj\Debug\net6.0\LessonTester.dll
 C:\Github\CodilityLessonImplementations\LessonTester\obj\Debug\net6.0\ref\LessonTester.dll
