@@ -1,5 +1,6 @@
 using LessonChallengeSolutions.Arrays;
 using LessonChallengeSolutions.Iterations;
+using LessonChallengeSolutions.TimeComplexity;
 using NUnit.Framework;
 using System.Linq;
 
@@ -10,6 +11,7 @@ namespace LessonTester
         private BinaryGap binaryGap;
         private CyclicRotation cyclicRotation;
         private OddOccurrencesInArray oddOccurrencesInArray;
+        private FrogJmp frogJmp;
 
         [SetUp]
         public void Setup()
@@ -17,6 +19,7 @@ namespace LessonTester
             binaryGap = new BinaryGap();
             cyclicRotation = new CyclicRotation();
             oddOccurrencesInArray = new OddOccurrencesInArray();
+            frogJmp = new FrogJmp();
         }
 
         [Test]
@@ -126,7 +129,37 @@ namespace LessonTester
 
         }
 
+        [Test]
+        public void FrogJmp()
+        {
 
+            var result1 = frogJmp.Solution(10,80,30);
+            var result2 = frogJmp.Solution(-10, 10, 10);
+            var result3 = frogJmp.Solution(100, 10, 30);
+            var result4 = frogJmp.Solution(-100, 25, 20);
+
+
+            if (result1 != 3)
+            {
+                Assert.Fail();
+            }
+
+            if (result2 != 2)
+            {
+                Assert.Fail();
+            }
+
+            if (result3 != 0)
+            {
+                Assert.Fail();
+            }
+
+            if (result4 != 7)
+            {
+                Assert.Fail();
+            }
+
+        }
 
     }
 }
