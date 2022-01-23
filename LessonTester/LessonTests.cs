@@ -1,4 +1,5 @@
 using LessonChallengeSolutions.Arrays;
+using LessonChallengeSolutions.CountingElements;
 using LessonChallengeSolutions.Iterations;
 using LessonChallengeSolutions.TimeComplexity;
 using NUnit.Framework;
@@ -14,16 +15,20 @@ namespace LessonTester
         private FrogJmp frogJmp;
         private PermMissingElem permMissingElem;
         private TapeEquilibrium tapeEquilibrium;
+        private FrogRiverOne frogRiverOne;
+        private PermCheck permCheck;
 
         [SetUp]
         public void Setup()
         {
-            binaryGap = new BinaryGap();
-            cyclicRotation = new CyclicRotation();
-            oddOccurrencesInArray = new OddOccurrencesInArray();
-            frogJmp = new FrogJmp();
-            permMissingElem = new PermMissingElem();
-            tapeEquilibrium = new TapeEquilibrium();
+            binaryGap               = new BinaryGap();
+            cyclicRotation          = new CyclicRotation();
+            oddOccurrencesInArray   = new OddOccurrencesInArray();
+            frogJmp                 = new FrogJmp();
+            permMissingElem         = new PermMissingElem();
+            tapeEquilibrium         = new TapeEquilibrium();
+            frogRiverOne            = new FrogRiverOne();
+            permCheck               = new PermCheck();
         }
 
         [Test]
@@ -237,6 +242,56 @@ namespace LessonTester
             }
 
 
+
+        }
+
+        [Test]
+        public void FrogRiverOne()
+        {
+
+            var result1 = frogRiverOne.Solution(5,new int[] { 1, 3, 1, 4, 2, 3, 5, 4 });
+            
+            if (result1 != 6)
+            {
+                Assert.Fail();
+            }
+
+        }
+
+        [Test]
+        public void PermCheck()
+        {
+            var result1 = permCheck.Solution(new int[] {4,1,3,2});
+            var result2 = permCheck.Solution(new int[] { 4, 1, 2 });
+            var result3 = permCheck.Solution(new int[] { });
+            var result4 = permCheck.Solution(new int[] { 1});
+            var result5 = permCheck.Solution(new int[] { 3 });
+
+
+            if (result1 != 1)
+            {
+                Assert.Fail();
+            }
+
+            if (result2 != 0)
+            {
+                Assert.Fail();
+            }
+
+            if (result3 != 0)
+            {
+                Assert.Fail();
+            }
+
+            if (result4 != 1)
+            {
+                Assert.Fail();
+            }
+
+            if (result5 != 0)
+            {
+                Assert.Fail();
+            }
 
         }
     }
