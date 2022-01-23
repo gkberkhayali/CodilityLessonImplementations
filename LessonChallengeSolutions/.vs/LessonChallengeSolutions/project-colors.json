@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8d2df231-92f3-41b2-a786-a8384e783c48": {
+      "ProjectGuid": "8d2df231-92f3-41b2-a786-a8384e783c48",
+      "DisplayName": "LessonChallengeSolutions",
+      "ColorIndex": 0
+    },
+    "1cd2b253-2581-49b1-b8fc-5ae1491d92e1": {
+      "ProjectGuid": "1cd2b253-2581-49b1-b8fc-5ae1491d92e1",
+      "DisplayName": "LessonTester",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
