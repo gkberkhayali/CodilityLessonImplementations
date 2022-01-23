@@ -17,6 +17,7 @@ namespace LessonTester
         private TapeEquilibrium tapeEquilibrium;
         private FrogRiverOne frogRiverOne;
         private PermCheck permCheck;
+        private MaxCounters maxCounters;
 
         [SetUp]
         public void Setup()
@@ -29,6 +30,7 @@ namespace LessonTester
             tapeEquilibrium         = new TapeEquilibrium();
             frogRiverOne            = new FrogRiverOne();
             permCheck               = new PermCheck();
+            maxCounters             = new MaxCounters();
         }
 
         [Test]
@@ -294,5 +296,21 @@ namespace LessonTester
             }
 
         }
+
+        [Test]
+        public void MaxCounters()
+        {
+            var result1 = maxCounters.Solution(5, new int[] { 3, 4, 4, 6, 1, 4, 4 });
+      
+            //if (result1 != 1)
+            //{
+            //    Assert.Fail();
+            //}
+
+           
+
+        }
+
+
     }
 }
