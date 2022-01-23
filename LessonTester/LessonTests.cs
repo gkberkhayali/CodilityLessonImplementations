@@ -12,6 +12,8 @@ namespace LessonTester
         private CyclicRotation cyclicRotation;
         private OddOccurrencesInArray oddOccurrencesInArray;
         private FrogJmp frogJmp;
+        private PermMissingElem permMissingElem;
+        private TapeEquilibrium tapeEquilibrium;
 
         [SetUp]
         public void Setup()
@@ -20,6 +22,8 @@ namespace LessonTester
             cyclicRotation = new CyclicRotation();
             oddOccurrencesInArray = new OddOccurrencesInArray();
             frogJmp = new FrogJmp();
+            permMissingElem = new PermMissingElem();
+            tapeEquilibrium = new TapeEquilibrium();
         }
 
         [Test]
@@ -161,5 +165,79 @@ namespace LessonTester
 
         }
 
+        [Test]
+        public void PermMissingElem()
+        {
+
+            var result1 = permMissingElem.Solution(new int[] {});
+            var result2 = permMissingElem.Solution(new int[] { 1 });
+            var result3 = permMissingElem.Solution(new int[] { 2 });
+            var result4 = permMissingElem.Solution(new int[] { 1, 2 });
+            var result5 = permMissingElem.Solution(new int[] { 2, 3 });
+            var result6 = permMissingElem.Solution(new int[] { 1,2,3,7,4,5});
+            
+
+
+            if (result1 != 1)
+            {
+                Assert.Fail();
+            }
+
+
+            if (result2 != 2)
+            {
+                Assert.Fail();
+            }
+
+            if (result3 != 1)
+            {
+                Assert.Fail();
+            }
+
+            if (result4 != 3)
+            {
+                Assert.Fail();
+            }
+
+            if (result5 != 1)
+            {
+                Assert.Fail();
+            }
+
+            if (result6 != 6)
+            {
+                Assert.Fail();
+            }
+
+        }
+
+        [Test]
+        public void TapeEquilibrium()
+        {
+
+            var result1 = tapeEquilibrium.Solution(new int[] { 3, 1, 2, 4, 3 });
+            var result2 = tapeEquilibrium.Solution(new int[] { 1, 1, 3 });
+            var result3 = tapeEquilibrium.Solution(new int[] { -10, -20, -30, -40, 100 });
+
+            
+
+            if (result1 != 1)
+            {
+                Assert.Fail();
+            }
+
+            if (result2 != 1)
+            {
+                Assert.Fail();
+            }
+
+            if (result3 != 20)
+            {
+                Assert.Fail();
+            }
+
+
+
+        }
     }
 }

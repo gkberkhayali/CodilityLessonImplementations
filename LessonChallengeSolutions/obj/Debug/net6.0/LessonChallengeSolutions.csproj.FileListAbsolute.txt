@@ -2,7 +2,6 @@ C:\Github\CodilityLessonImplementations\LessonChallengeSolutions\bin\Debug\net6.
 C:\Github\CodilityLessonImplementations\LessonChallengeSolutions\bin\Debug\net6.0\LessonChallengeSolutions.dll
 C:\Github\CodilityLessonImplementations\LessonChallengeSolutions\bin\Debug\net6.0\ref\LessonChallengeSolutions.dll
 C:\Github\CodilityLessonImplementations\LessonChallengeSolutions\bin\Debug\net6.0\LessonChallengeSolutions.pdb
-C:\Github\CodilityLessonImplementations\LessonChallengeSolutions\obj\Debug\net6.0\LessonChallengeSolutions.csproj.AssemblyReference.cache
 C:\Github\CodilityLessonImplementations\LessonChallengeSolutions\obj\Debug\net6.0\LessonChallengeSolutions.GeneratedMSBuildEditorConfig.editorconfig
 C:\Github\CodilityLessonImplementations\LessonChallengeSolutions\obj\Debug\net6.0\LessonChallengeSolutions.AssemblyInfoInputs.cache
 C:\Github\CodilityLessonImplementations\LessonChallengeSolutions\obj\Debug\net6.0\LessonChallengeSolutions.AssemblyInfo.cs
